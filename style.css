@@ -126,6 +126,7 @@ section{
     text-align: center;
     /* margin-top: px; */
     font-size: 10px;
+    padding: 20px;
     
     
 }
@@ -208,16 +209,39 @@ section{
 .mihp{
     display: flex;
     align-items: center;
+    gap: 20px;
+    
 }
 .mihp2{
     display: flex;
-    align-items: center;}
+    align-items: center;
+gap: 20px;}
 .cihp{
     display: flex;
 }
-.hp p{
-margin-bottom: 15px;
+.hp1{
+
+    line-height: 32px;
+    margin: 20px;
+
 }
+.hp2{
+
+    line-height: 32px;
+    margin: 20px;
+}
+.hp3{
+    line-height: 32px;
+    margin: 20px;
+}
+.hp4{
+    line-height: 32px;
+    margin: 20px;
+}
+.icon{
+    margin: -30px;
+}
+
 .mainrcl{
     display: flex;
     justify-content: space-between;
