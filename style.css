@@ -181,18 +181,24 @@ section{
    background-color: #F5F7F9;
 }
 .rightimg img{
-    width: 270px;
-    height: 270px;
+    width: 260px;
+    height: 260px;
     
 }
 .leftcon p{
     margin-bottom: 29px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 .leftcon pre{
     margin-top: 20px;
+    padding-left: 25px;
+    
 }
 .leftcon h4{
     color: green;
+     padding-left: 25px;
 }
 .leftcon button{
    background-color: #F5F7F9;
@@ -205,6 +211,10 @@ section{
 }
 .leftcon a:hover{
     color: blue;
+}
+.otherlogo{
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .mihp{
     display: flex;
@@ -223,12 +233,24 @@ gap: 20px;}
 
     line-height: 32px;
     margin: 20px;
-
+}
+.hp1 h1{
+    font-weight: 600;
+}
+.hp2 h1{
+    font-weight: 600;
+}
+.hp3 h1{
+    font-weight: 600;
+}
+.hp4 h1{
+    font-weight: 600;
 }
 .hp2{
 
     line-height: 32px;
     margin: 20px;
+  
 }
 .hp3{
     line-height: 32px;
@@ -313,12 +335,13 @@ gap: 20px;}
     background-color: #F5F7F9 ;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.126);
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 8px;
     text-align: center;
+    padding: 20px;
     
 }
 .tt a{
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     color: green;
 }
@@ -340,6 +363,8 @@ gap: 20px;}
     text-align: center;
     font-size: 24px;
      background-color: #F5F7F9 ;
+     line-height: 70px;
+     padding: 20px;
     
 }
 .hb button{
@@ -374,4 +399,7 @@ footer{
 }
 .nn i{
     margin-top: 20px;
+}
+input{
+    padding: 10px;
 }
