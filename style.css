@@ -423,6 +423,140 @@ input{
 
 /* media?******* */
 
+@media (max-width: 900px){
+    .nev{
+        display: none;
+    }
+    .mainlr{
+        padding: 1px;
+        margin-top: 5px;
+    }
+    .box{
+        /* height: auto; */
+        /* width:; */
+        font-size: 8px;
+    }
+    .box p{
+        font-size: 12px;
+    }
+    .tt{
+         width: 150px;
+        height: 120px;
+        font-size: 5px;
+    }
+    .ttt{
+        padding-left: 65px;
+        padding-right: 65px;
+        
+        /* margin: auto; */
+        display: flex;
+        gap: 100px;
+        /* justify-content: center; */
+        
+    }
+    .h p{
+        width: auto;
+    }
+    .mainrcl{
+        padding: 0 0 0 10px;
+    }
+   
+    .rr img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    .r{
+        font-size: 14px;
+
+    }
+}
+@media (max-width: 768px){
+    .nev{
+        display: none;
+    }
+    .one h1{
+        font-size: 40px;
+    }
+    .one p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 697px){
+    
+   .mainbox {
+    padding: 10px;
+   }
+   .right h1{
+    font-size: 20px;
+   }
+   .right p{
+    font-size: 12px;
+
+   }
+   .leftcon p{
+    padding: 10px 0 0 25px;
+    font-size: 10px;
+   }
+   .leftcon pre{
+    margin-top: 0;
+   }
+   .otherlogo img{
+    width: 30px;
+    height: 30px;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+   }
+   .mihp {
+    font-size: 8px;
+   }
+   .mihp2 {
+    font-size: 8px;
+   }
+  ul{
+    display: none;
+  }
+  header{
+    justify-content: space-between;
+    gap: 20px;
+   
+  }
+  .nev{
+        display:block;
+    }
+
+}
+@media (max-width: 591px){
+    .maincontant{
+        width: 100%;
+    }
+    .otherlogo img{
+        width: 20px;
+        height: 20px;
+    }
+    .leftcon a{
+        font-size: 10px;
+    }
+    .rr img{
+        width: 150px;
+        height: 150px;
+    }
+    .tt{
+        width: 100px;
+        height: 100px;
+        padding: 4px;
+        font-size: 4px;
+    }
+    .leftcon pre{
+        font-size: 10px;
+    }
+    .two img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
 @media (max-width: 425px){
     .mainu ul{
         gap: 10px;
